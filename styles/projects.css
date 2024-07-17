@@ -1,0 +1,36 @@
+div {
+    margin: auto;
+    background-color: #192655;
+    color: whitesmoke;
+    width: 700px;
+    padding: 30px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    padding: 0px;
+    padding-top: 25px;
+    padding-bottom: 3px;
+    margin: 0px;
+    color: gold;
+}
+
+h2 {
+    margin: 0px;
+    color: gold;
+}
+
+a {
+    color: whitesmoke;
+}
+
+div p {
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+div p a {
+    color: gold;
+    text-decoration: none;
+}

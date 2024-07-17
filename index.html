@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Project</title>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                font-family: 'Century Gothic','CenturyGothic','AppleGothic',sans-serif; 
+            }
+            table, td, th {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            table {
+                margin: auto;
+            }
+            h1, h2, h4 {
+                text-align: center;
+            }
+            th[rowspan="15"], th[rowspan="16"], th[rowspan="17"] {
+                writing-mode: vertical-rl;
+                transform: scale(-1);
+            }
+            .left-position {
+                text-align: start;
+                padding-top: 10px;
+            }
+            .top-position {
+                vertical-align: top;
+            }
+            td {
+                padding: 0px 5px;
+                font-size: 14px;
+            }
+            th {
+                padding: 0px 10px;
+                font-size: 16px;
+            }
+            p {
+                height: 20px;
+                padding: 0px;
+                margin: 0px;
+            }
+            .increase-space {
+                margin: 20px;
+            }
+            .extra-space{
+                padding-bottom: 10px;
+            }
+            .enlarged-font {
+                font-size: 22px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>HTML PROJECT</h1>
+        <hr>
+        <h2>1. CURRENT INTERNSHIP TIMETABLE</h1>
+        <table>
+            <!--Head-->
+            <tr>
+                <th colspan="7" class="enlarged-font">INTERNSHIP ENGAGEMENT TIME FRAME</th>
+            </tr>
+            <tr>
+                <th colspan="7" class="enlarged-font">MAY</th>
+            </tr>
+            <tr>
+                <th rowspan="2">DATES/Time</th>
+                <th colspan="3">A.M</th>
+                <th colspan="3">P.M</th>
+            </tr>
+            <tr>
+                <th>9:00</th>
+                <th class="increase-space">10:00-12:00</th>
+                <th class="increase-space" colspan="2">12:00 &#8211 1:00</th>
+                <th>1pm &#8211 2pm</th>
+                <th>2pm &#8211 3pm</th>
+            </tr>
+
+            <!--MAY-->
+            <tr>
+                <td>Mon, 13<sup>th</sup> 2024</td>
+                <th rowspan="15" class="enlarged-font">RESUMPTION TIME</th>
+                <td></td>
+                <th rowspan="15" colspan="2" class="enlarged-font">BREAK</th>
+                <td>AutoCAD/ Web Dev. (HTML)</td>
+                <th rowspan="15" class="enlarged-font">SELF-PRACTICE TIME</th>
+            </tr>
+            <tr>
+                <td>Tues, 14<sup>th</sup> 2024</td>
+                <td>Web Dev. (HTML)</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <td>Thurs, 16<sup>th</sup> 2024</td>
+                <td></td>
+                <td>AutoCAD/Python</td>
+            </tr>
+            <tr>
+                <td><p></p></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mon, 20<sup>th</sup> 2024</td>
+                <td></td>
+                <td>AutoCAD/Web. Dev. (HTML)</td>
+            </tr>
+            <tr>
+                <td>Tues, 21<sup>st</sup> 2024</td>
+                <td>AutoCAD/Web. Dev. (HTML)</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <td>Thurs, 23<sup>rd</sup> 2024</td>
+                <td></td>
+                <td>AutoCAD/Python</td>
+            </tr>
+            <tr>
+                <td><p></p></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mon, 27<sup>th</sup> 2024</td>
+                <td></td>
+                <td>AutoCAD/Web. Dev. (CSS)</td>
+            </tr>
+            <tr>
+                <td>Tues, 28<sup>th</sup> 2024</td>
+                <td>Web. Dev. (CSS)</td>
+                <td>AutoCAD/Python</td>
+            </tr>
+            <tr>
+                <td>Thurs, 30<sup>th</sup> 2024</td>
+                <td></td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <td><p></p></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mon, 3<sup>rd</sup> 2024</td>
+                <td></td>
+                <td>AutoCAD/Web. Dev. (CSS)</td>
+            </tr>
+            <tr>
+                <td>Tues, 4<sup>th</sup> 2024</td>
+                <td>Web. Dev. (CSS)</td>
+                <td>Python</td>
+            </tr>
+            <tr>
+                <td>Thurs, 6<sup>th</sup> 2024</td>
+                <td></td>
+                <td class="extra-space">Python</td>
+            </tr>
+
+            <!--JUNE-->
+            <th colspan="7" class="enlarged-font">JUNE</th>
+            <tr>
+                <td>Mon, 10<sup>th</sup> 2024</td>
+                <th rowspan="15" class="enlarged-font">RESUMPTION TIME</th>
+                <td class="top-position">Sketch-Up</td>
+                <th rowspan="15" colspan="2" class="enlarged-font">BREAK</th>
+                <td>Revit Architecture/ Revit Structure/Web &emsp; &emsp; &emsp;<br>Dev. (Java Script)</td>
+                <th rowspan="15" class="left-position enlarged-font">SELF-PRACTICE TIME</th>
+            </tr>
+            <tr>
+                <td>Tues, 11<sup>th</sup> 2024</td>
+                <td>Web Dev. (Java Script)</td>
+                <td>Python/Inventor</td>
+            </tr>
+            <tr>
+                <td>Thurs, 13<sup>th</sup> 2024</td>
+                <td>Revit Structure/Sketch-Up</td>
+                <td>Revit Architecture/Python/P&ID</td>
+            </tr>
+            <tr>
+                <td><p></p></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mon, 17<sup>th</sup> 2024</td>
+                <td>Sketch-Up</td>
+                <td>Web. Dev. (Java Script)</td>
+            </tr>
+            <tr>
+                <td>Tues, 18<sup>th</sup> 2024</td>
+                <td>Web Dev. (Java Script)</td>
+                <td>Revit Architecture/Python</td>
+            </tr>
+            <tr>
+                <td>Thurs, 20<sup>th</sup> 2024</td>
+                <td>P&ID/Revit Structure</td>
+                <td>Python/Inventor</td>
+            </tr>
+            <tr>
+                <td><p></p></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mon, 24<sup>th</sup> 2024</td>
+                <td>Web Dev. (Java Script)</td>
+                <td>Inventor</td>
+            </tr>
+            <tr>
+                <td>Tues, 25<sup>th</sup> 2024</td>
+                <td>Robot Structure</td>
+                <td>Python/Web Dev. (Java Script)</td>
+            </tr>
+            <tr>
+                <td>Thurs, 27<sup>th</sup> 2024</td>
+                <td>Inventor</td>
+                <td>P&ID/Python</td>
+            </tr>
+            <tr>
+                <td><p></p></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mon, 1<sup>st</sup> 2024</td>
+                <td>Sketch-Up/Robot Structure</td>
+                <td>P&ID/Web Dev. (Project Presentation)</td>
+            </tr>
+            <tr>
+                <td>Tues, 2<sup>nd</sup> 2024</td>
+                <td>Web. Dev. (Project Presentation) &emsp; &emsp; &emsp;</td>
+                <td>Python/ Revit Architecture</td>
+            </tr>
+            <tr>
+                <td>Thurs, 6<sup>th</sup> 2024</td>
+                <td>Inventor</td>
+                <td>Robot Structure/Python</td>
+            </tr>
+
+            <!--JULY-->
+            <th colspan="7" class="enlarged-font">JULY</th>
+            <tr>
+                <td>Mon, 8<sup>th</sup> 2024</td>
+                <td></td>
+                <td class="extra-space top-position">Robot Structure</td>
+                <th rowspan="17" colspan="2" class="enlarged-font">BREAK</th>
+                <td class="extra-space top-position">Fusion 360</td>
+                <th rowspan="17" class="enlarged-font">SELF-PRACTICE TIME</th>
+            </tr>
+            <tr>
+                <td>Tues, 9<sup>th</sup> 2024</td>
+                <th rowspan="16" class="enlarged-font">RESUMPTION TIME</th>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Thurs, 11<sup>th</sup> 2024</td>
+                <td>Fusion 360</td>
+                <td>Robot Structure</td>
+            </tr>
+            <tr>
+                <td><p></p></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mon, 15<sup>th</sup> 2024</td>
+                <td>Plant 3D</td>
+                <td>BIM Workflow</td>
+            </tr>
+            <tr>
+                <td>Tues, 16<sup>th</sup> 2024</td>
+                <td></td>
+                <td>Plant 3D</td>
+            </tr>
+            <tr>
+                <td>Thurs, 18<sup>th</sup> 2024</td>
+                <td></td>
+                <td>Fusion 360</td>
+            </tr>
+            <tr>
+                <td><p></p></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mon, 22<sup>nd</sup> 2024</td>
+                <td>Sketch-Up</td>
+                <td>BIM Workflow</td>
+            </tr>
+            <tr>
+                <td>Tues, 23<sup>rd</sup> 2024</td>
+                <td></td>
+                <td>Plant 3D</td>
+            </tr>
+            <tr>
+                <td>Thurs, 25<sup>th</sup> 2024</td>
+                <td>Fusion 360</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><p></p></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mon, 29<sup>th</sup> 2024</td>
+                <td>Sketch-Up</td>
+                <td>Plant 3D</td>
+            </tr>
+            <tr>
+                <td>Tues, 30<sup>th</sup> 2024</td>
+                <td></td>
+                <td>BIM Workflow</td>
+            </tr>
+            
+            <tr>
+                <td>Thurs, 1<sup>st</sup> 2024</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><p></p></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mon, 5<sup>th</sup>2024</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <hr>
+        <h2>2. CV WEBSITE</h1>
+        <h4>Please <a href="pages/cv.html">click</a> to open the CV webpage</h4>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+table {
+    margin: 0px 60px;
+}
+
+h4 {
+    margin: 10px 0px 80px 80px;
+}
+
+h4 a {
+    color: gold;
+}
+
+img {
+    border-radius: 30px;
+}
+
+h1, h2 {
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-size: 40px;
+    margin: 0px;
+    color: gold;
+}
+
+p, h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 18px;
+}
+
+td {
+    padding: 20px;
+}
+
+.mid-table {
+    width: 550px;
+}
+
+.my-p {
+    font-size: 22px;
+}
+
+p a {
+    background-color: rgb(190, 168, 41);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}

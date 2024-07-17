@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul {
+    background-color: #192655;
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    padding: 10px 0px;
+    margin-left: 60px;
+}
+
+nav ul li:hover {
+    background-color: #162761;
+}
+
+nav ul li a {
+    padding: 10px 0px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Courier', 'monospace';
+}
+
+.logo {
+    font-family: 'Brush Script MT', 'Brush Script Std', 'cursive';
+}
+
+footer {
+    text-align: right;
+    padding: 0px 80px 100px;
+}
+
+hr {
+    border-color: #192655;
+    border-width: 2px;
+}
